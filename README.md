@@ -21,27 +21,12 @@ A lightweight PHP-based system for tracking downloads of publication files. It r
 - `Tracker_Model.php`: Model for interacting with the database and managing download records
 - `sidebar.php`: Sidebar UI component to show publication download stats
 
-## Getting Started
-
-### Prerequisites
+### Built With
 
 - PHP 7.x or later
 - MySQL
-- A web server (e.g., Apache)
-- CodeIgniter framework (optional but recommended)
-
-### Installation
-
-1. Clone or download this repository into your project folder.
-2. Set up your MySQL database and configure credentials in your CodeIgniter configuration.
-3. Ensure routes are correctly mapped to the `Tracker` controller.
-4. Access the application in your browser.
-
-## Usage
-
-- The system expects publication downloads to be initiated using a `download_id` parameter.
-- Downloads are logged automatically when users access the download endpoint.
-- Use the sidebar component to view total and recent download statistics for each tracked publication.
+- Apache web server
+- CodeIgniter framework
 
 ## License
 
