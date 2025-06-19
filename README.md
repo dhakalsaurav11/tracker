@@ -14,19 +14,16 @@ A lightweight PHP-based system for tracking downloads of publication files. It r
 - PHP (CodeIgniter-compatible structure)
 - MySQL (via `Tracker_Model`)
 - HTML/CSS (for basic UI elements)
+- PHP 8.1
+- MySQL
+- Apache web server
+- CodeIgniter framework
 
 ## File Overview
 
 - `Tracker.php`: Controller for handling download requests and rendering views
 - `Tracker_Model.php`: Model for interacting with the database and managing download records
 - `sidebar.php`: Sidebar UI component to show publication download stats
-
-### Built With
-
-- PHP 7.x or later
-- MySQL
-- Apache web server
-- CodeIgniter framework
 
 ## License
 
